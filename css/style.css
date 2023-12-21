@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu {
+    background: red;
+    padding: 12px 6px;
+}
+
+.menu .lista {
+    display: flex;
+    justify-content: center;
+}
+
+.menu .lista li {
+    list-style-type: none;
+}
+
+.menu .lista .element {
+    display: flex;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    /* margin: 4px; */
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+.menu .lista .element:hover {
+    background: rgb(136, 6, 6);
+    /* padding: 12px; */
+}
+
+.pie {
+    background: yellow;
+    padding: 24px;
+}
